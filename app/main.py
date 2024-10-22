@@ -12,7 +12,7 @@ async def index():
     """
     Index route for our application
     """
-    return {"message": "Hello from FastAPI ;)"}
+    return {"message": "Welcome To Nimap Infotech Pvt Ltd ;)"}
 
 
 @app.post("/users", response_model=BaseResponse)
